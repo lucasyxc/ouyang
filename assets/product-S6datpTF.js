@@ -1,0 +1,1 @@
+import{r as t}from"./request-DZc3m5b6.js";const a={getList(e){return t.get("/api/medical-devices/",{params:e})},create(e){return t.post("/api/medical-devices/",e)},update(e,i){return t.put(`/api/medical-devices/${e}/`,i)},delete(e){return t.delete(`/api/medical-devices/${e}/`)}};export{a as p};
