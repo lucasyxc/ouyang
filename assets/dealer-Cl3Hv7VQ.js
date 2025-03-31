@@ -1,0 +1,1 @@
+import{r}from"./request-BsIQN7sp.js";const p={getList(e){return r.get("/api/dealers/",{params:{page:e.page||1,page_size:e.pageSize||10,keyword:e.keyword}})},create(e){return r.post("/api/dealers/",e)},update(e,t){return r.put(`/api/dealers/${e}/`,t)},delete(e){return r.delete(`/api/dealers/${e}/`)}};export{p as d};
