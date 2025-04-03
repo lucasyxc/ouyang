@@ -1,1 +1,0 @@
-import{r as t}from"./request-CZivz23V.js";const i={getList(e){return t.get("/devices/list",{params:e})},create(e){return t.post("/devices/create/",e)},update(e,r){return t.post(`/devices/edit/${e}/`,r)}};export{i as p};
