@@ -1,0 +1,1 @@
+import{r as t}from"./request-C7sc0_J1.js";const a={getList(e){return t.get("/dealer/list/",{params:e})},create(e){return t.post("/dealer/create/",e)},update(e,r){return t.post(`/dealer/edit/${e}/`,r)},delete(e){return t.delete(`/dealer/delete/${e}/`)}};export{a as d};
